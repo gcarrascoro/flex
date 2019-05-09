@@ -1,0 +1,25 @@
+.main {
+    background-color: hsl(330, 100%, 71%);
+    height:200px;
+display: flex;
+flex-wrap: wrap;
+}
+
+.card {
+    
+    width: 200px;
+    height: 150px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
+.no-flex{
+    background-color: purple;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+}
+@media (max-width:600px){
+    .card{
+        width: 100%;
+    }
+}
